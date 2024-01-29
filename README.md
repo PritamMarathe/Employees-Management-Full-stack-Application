@@ -29,7 +29,7 @@ Overall, the EmployeeRepo interface encapsulates the data access and manipulatio
 </p>
 
 
-<h3>Service EmployeeService:- </h3> <p>
+<h3>Service (EmployeeService):- </h3> <p>
 The EmployeeService class is responsible for providing various operations related to employee management. Each method in the class performs specific tasks:
 
 addEmployee(Employee employee): Generates a unique employee code for the provided employee and saves them into the system.
@@ -46,7 +46,7 @@ The @Service annotation indicates that this class is a service component in the 
 </p>
 
 
-<h3>Exception UserNotFoundException Class:- </h3>  <p>
+<h3>UserNotFoundException:- </h3>  <p>
 The UserNotFoundException class is a custom exception used to represent the situation where a Employee is not found in the Employee Management System. It extends the RuntimeException class and has a constructor that takes a message, which is then passed to the parent class for handling. This exception is thrown to indicate that a Employee could not be found in the system.</p> <br>
 
 
