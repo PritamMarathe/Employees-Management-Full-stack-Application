@@ -58,10 +58,3 @@ public class EmployeeController {
 	}
 	
 }
-//public getEmployees(): Observable<Employee[]> {
-//    return this.http.get<Employee[]>('${this.apiServiceUrl}/employee/all');
-//}
-//
-//public addEmployee(employee:Employee): Observable<Employee[]> {
-//    return this.http.post<Employee[]>('${this.apiServiceUrl}/employee/add',employee);
-//}
